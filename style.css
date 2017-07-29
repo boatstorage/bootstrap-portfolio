@@ -1,16 +1,45 @@
 
+body{
+	/*display: flex;*/
+}
 .navbar-navbar-defualt{
+	margin-left: 25%;
+	background-color: white;
+
 
 }
 
 .container-fluid{
 	
+
+
+}
+
+.navbar-brand{
+
 }
 
 .panel-default{
-	float:right;
+	/*justify-content: flex-end;
+	flex-direction: column;*/
+	
 }
 .thumbnail,
 .paragraph{
-	float: left;
+	
+}
+
+.content-area{
+	display: flex;
+	align-content: space-around;
+}
+
+.image-container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.thumbnail {
+	align-self: stretch;
 }
